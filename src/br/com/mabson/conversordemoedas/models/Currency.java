@@ -1,4 +1,4 @@
-package br.com.mabson.conversordemoedas.model;
+package br.com.mabson.conversordemoedas.models;
 
 public class Currency {
     private String code;
