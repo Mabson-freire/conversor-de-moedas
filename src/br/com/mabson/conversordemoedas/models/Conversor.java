@@ -41,7 +41,8 @@ public class Conversor {
 
             System.out.println("Paridade escolhida: " + moedaBase + " => " + moedaDestino);
 
-            System.out.println(String.format("%.2f %S Corresponde a: %.2f %S ", valorDaConversao, moedaBase, novoCalculo.getResultado(), moedaDestino));
+            System.out.println(String.format("%.2f %S Corresponde a: %.2f %S (Taxa de câmbio: %f)",
+                    valorDaConversao, moedaBase, novoCalculo.getResultado(), moedaDestino, novoCalculo.getTaxaDeCambio()));
 
             Menu novoMenu = new Menu();
         }catch (Exception e ) {

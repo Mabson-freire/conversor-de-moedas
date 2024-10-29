@@ -62,11 +62,10 @@ public class Menu {
                 case 7:
                     System.out.println("Obrigado por utilizar o nosso sistema, Até mais!");
                     return false;
-                default:
-                    System.out.println("Opção inválida tente novamente");
             }
             return true;
         }else {
+            System.out.println("Opção inválida tente novamente");
             return true;
         }
     }
